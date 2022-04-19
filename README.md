@@ -1,2 +1,2 @@
-# python-control-flow
-Python control flow lab
+# Python Control Flow Lab
+Python lab to practice control flow
