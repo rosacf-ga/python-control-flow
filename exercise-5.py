@@ -13,11 +13,15 @@
 
 # Hint: The next number is found by adding the two numbers before it
 
-def fib(n):
-  if n < 2: 
-    return n 
+term = 0
+a = 0
+b = 1
+while term < 51:
+  if term < 2:
+    print(f'term: {term} / number: {term}')
   else:
-    return fib(n-1) + fib(n-2)
-
-for n in range(51):
-  print(f'term: {n} / number: {fib(n)}')
+    num = a + b
+    print(f'term: {term} / number: {num}')
+    a = b
+    b = num
+  term += 1
